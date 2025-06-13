@@ -29,19 +29,30 @@ The interface features a smart hide/show button that disappears after 5 seconds 
 5. The menu will automatically hide after 5 seconds of inactivity
 
 ## 🧩 File Structure
-Dynamic Gradient Clock with Mouse Interaction/
-├── index.html       # Main HTML file
-├── index.css        # Styles for the clock and gradients
-├── index.js         # Logic for time/mouse interactions
-└── images/
-    └── menu.png              # Menu icon for the hide/show button
+
+<p>Dynamic-Gradient-Clock-with-Mouse-Interaction/
+<br>│<br>
+├── index.html            # Main HTML file
+<br>│<br>
+├── styles
+<br>&nbsp|&nbsp&nbsp&nbsp│<br>
+&nbsp|&nbsp&nbsp&nbsp└──index.css             # Styles for the clock and gradients
+<br>│<br>
+├── scripts
+<br>&nbsp|&nbsp&nbsp&nbsp│
+<br>&nbsp|&nbsp&nbsp&nbsp└──index.js              # Logic for time/mouse interactions
+<br>│<br>
+├── images/               # Folder for all images
+<br>&nbsp&nbsp&nbsp&nbsp│<br>
+&nbsp&nbsp&nbsp&nbsp└── menu.png          # Menu icon for the hide/show button 
+</p>
 
 ## 🔧 Dependencies
 - [jQuery](https://jquery.com/) (loaded via CDN)
 
 ## 🌐 Live Demo
 
-[View the live version here](https://qiancheng-hao.github.io/Dynamic-Gradient-Clock-with-Mouse-Interaction) <!-- Add your GitHub Pages link if deployed -->
+[View the live version here](https://qiancheng-hao.github.io/Dynamic-Gradient-Clock-with-Mouse-Interaction/) <!-- Add your GitHub Pages link if deployed -->
 
 ## 🛠️ Customization
 You can adjust these variables in `index.js`:
