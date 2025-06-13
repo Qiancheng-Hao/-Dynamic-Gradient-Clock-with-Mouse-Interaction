@@ -1,0 +1,70 @@
+html{
+    background-image: linear-gradient(to left, rgba(199, 134, 207, 0.49), rgba(118, 234, 207, 0.68), rgba(74, 20, 213, 0.53));
+    /*transition: background-color 0.1s ease;*/
+}
+
+h1 {
+    color: #a139d5;
+    text-align: center;
+
+}
+
+h1.top {
+    font-size: 15vw;
+    text-shadow: 5px 5px 10px rgb(126, 243, 188), 0px 0px 15px rgb(141, 115, 255), 0px 0px 20px rgb(222, 241, 154);
+    /*min-height: 100vh;*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.showhide{
+    position: absolute;
+    left: 49vw;
+    top: 0;
+    width:100px;
+    height: 30px;
+    z-index: 100; /* Ensure it stays above gradients */
+    transition: opacity 0.5s ease;
+    pointer-events: auto;
+}
+
+#showhidebutton {
+    position: absolute;
+    height: 30px;
+    left: -25px;
+    top: 6px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    background: rgba(129, 59, 198, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+#showhideimage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    background-image: url("../image/menu.png");
+    background-size: contain;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    transition: opacity 2s ease;
+}
+
+.showhide:hover #showhidebutton {
+    opacity: 1;
+}
+
+.showhide:hover #showhideimage{
+    opacity: 0;
+}
+
+
